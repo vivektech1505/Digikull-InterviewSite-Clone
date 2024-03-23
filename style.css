@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ddd;
+    padding: 5px 30px;
+}
+
+.logo {
+    display: flex; 
+    align-items: center;
+}
+
+
+.logo img {
+    margin-right: 10px; 
+    width: 60px; 
+    height: 60px; 
+}
+.company-title {
+    font-size: 45px; 
+    font-weight: bold; 
+    color: black;
+    
+}
+.logo a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+.navbar-nav a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 15px;
+    font-weight: 900;
+    color: black;
+    padding: 10px 10px;
+}
+.navbar-nav a img{
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+}
+.navbar-nav a:hover{
+    border: 1px solid black;
+    color: blue;
+}
+.button {
+    display: flex;
+    align-items: center;
+}
+
+.button button {
+    margin-right: 10px; 
+    margin-left: 20px;
+    padding: 8px 16px; 
+    background-color: rgb(18, 18, 21); 
+    color: white; 
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; 
+    font-size: 20px;
+}
+
+.button button:hover {
+    background-color: #45a049; 
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    background-color: #ececfc;
+    width: 100%;
+    
+    
+}
+
+
+.info > div:first-child {
+    margin-bottom: 20px;
+}
+
+.info > div:first-child img {
+    width: 200px; 
+    height: 200px; 
+}
+
+
+.home h2{
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family: "DM Serif", sans-serif;
+    font-weight: 500;
+}
+
+.home h2 {
+    margin: 5px 0;
+}
+.market{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+
+.library {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eaffe0;
+    
+}
+
+.library > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 50px;
+    
+}
+
+.library > div figure {
+    margin-top: 70px;
+}
+
+.library > div figure img {
+    width: 130px; 
+
+    height: 130px; 
+}
+.library div figure img:hover{
+    cursor: pointer;
+    
+}
+
+.library > div:first-child {
+    margin-bottom: 10px;
+}
+
+.add {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.add div {
+    font-size: 34px; 
+    font-weight: bold; 
+    color: #333; 
+    margin-bottom: 5px; 
+}
+
+h2 {
+    font-size: 20px; 
+    font-weight: bold;
+}
+div{
+    font-size: 25px;
+}
+.footers{
+    display: flex;
+    background-color: pink;
+    width: 100%;
+    padding: 2%;
+    background-color: #08213e;
+
+}
+.footer-item{
+    align-items: center;
+    background-color: white;
+    border-radius: .5rem;
+    display: flex;
+    height: 22%;
+    justify-content: space-around;
+    padding: .2rem .8rem;
+    width: 25%;
+    flex-direction: column;
+    height: auto;
+}
+.footer-item img{
+    width: 100px;
+    height: 50px;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+}
+.footer-item p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.footer-item-second {
+    width: 23%;
+    margin-left: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+    flex-direction: column;
+    color: white;
+    
+}
+/* .footer-item-second h1{
+    font-size: 40px;
+    align-items: center;
+   
+} */
+.main-contant{
+    font-size: 35px;
+    color: white;
+    text-align: left;
+    margin-top: -38px;
+}
+.footer-item-third{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    width: 23%;
+    margin-left: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+    /* flex-direction: column; */
+    color: white;
+}
+
+.footer-item-third .main-header{
+    font-size: 35px;
+    color: white;
+    text-align: left;
+}
+.main-header div{
+    font-size: 25px;
+    justify-content: center;
+}
+
+.footer-item-forth{
+    display: flex;
+    width: 23%;
+    flex-direction: column;
+}
+.footer-item-forth h4{
+    font-size: 25px;
+    color: white;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.footer-item-forth a{
+    text-decoration: none;
+}
